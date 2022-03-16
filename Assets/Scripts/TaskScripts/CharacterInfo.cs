@@ -6,6 +6,7 @@ namespace DefaultNamespace
     public class CharacterInfo : ScriptableObject
     {
         [SerializeField] private string prefabName;
+        
 
         public string PrefabName => prefabName;
     }
